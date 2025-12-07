@@ -1,0 +1,32 @@
+{
+    "Test": {
+        "Create user": [
+            {
+                "{{apiKey}}": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFscHl0b2F2dnFhZHBkYXNkbGV6Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc1NzE4MzI2MywiZXhwIjoyMDcyNzU5MjYzfQ.oZSSBvp8urFahCdBoyK-1IDYF2xqndY4KpRgKrkc66w",
+                "{{email}}": "arjunKumar@gmail.com",
+                "{{name}}": "Kumari Priya"
+            }
+        ],
+        "Get all users": [
+            {
+                "{{apiKey}}": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFscHl0b2F2dnFhZHBkYXNkbGV6Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc1NzE4MzI2MywiZXhwIjoyMDcyNzU5MjYzfQ.oZSSBvp8urFahCdBoyK-1IDYF2xqndY4KpRgKrkc66w"
+            }
+        ],
+        "Get user by ID": [
+            {
+                "{{apiKey}}": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFscHl0b2F2dnFhZHBkYXNkbGV6Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc1NzE4MzI2MywiZXhwIjoyMDcyNzU5MjYzfQ.oZSSBvp8urFahCdBoyK-1IDYF2xqndY4KpRgKrkc66w"
+            }
+        ],
+        "Update user": [
+            {
+                "{{apiKey}}": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFscHl0b2F2dnFhZHBkYXNkbGV6Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc1NzE4MzI2MywiZXhwIjoyMDcyNzU5MjYzfQ.oZSSBvp8urFahCdBoyK-1IDYF2xqndY4KpRgKrkc66w",
+                "{{newName}}": "Colgate"
+            }
+        ],
+        "Delete user": [
+            {
+                "{{apiKey}}": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFscHl0b2F2dnFhZHBkYXNkbGV6Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc1NzE4MzI2MywiZXhwIjoyMDcyNzU5MjYzfQ."
+            }
+        ]
+    }
+}

@@ -1,0 +1,67 @@
+{
+    "Create user": {
+        "url": "https://alpytoavvqadpdasdlez.supabase.co",
+        "method": "POST",
+        "headers": {
+            "apikey": "{{apiKey}}",
+            "Content-Type": "application/json",
+            "Prefer": "return=representation"
+        },
+        "path": "/rest/v1/users",
+        "body": {
+            "email": "Arjun Singh",
+            "name": "arjun.singh@gmail.com"
+        }
+    },
+    "Get all users": {
+        "url": "https://alpytoavvqadpdasdlez.supabase.co",
+        "method": "GET",
+        "headers": {
+            "apikey": "{{apiKey}}"
+        },
+        "path": "/rest/v1/users",
+        "params": {
+            "select": "*"
+        }
+    },
+    "Get user by ID": {
+        "url": "https://alpytoavvqadpdasdlez.supabase.co",
+        "method": "GET",
+        "headers": {
+            "apikey": "{{apiKey}}"
+        },
+        "path": "/rest/v1/users",
+        "params": {
+            "id": "eq.id"
+        }
+    },
+    "Update user": {
+        "url": "https://alpytoavvqadpdasdlez.supabase.co",
+        "method": "PATCH",
+        "headers": {
+            "apikey": "{{apiKey}}",
+            "Content-Type": "application/json",
+            "Prefer": "return=representation"
+        },
+        "path": "/rest/v1/users",
+        "params": {
+            "id": "eq.id"
+        },
+        "body": {
+            "name": "arjun kumar",
+            "email": "arjun.singh@gmail.com"
+        }
+    },
+    "Delete user": {
+        "url": "https://alpytoavvqadpdasdlez.supabase.co",
+        "method": "DELETE",
+        "headers": {
+            "apikey": "{{apiKey}}",
+            "Prefer": "return=representation"
+        },
+        "path": "/rest/v1/users",
+        "params": {
+            "id": "eq.id"
+        }
+    }
+}

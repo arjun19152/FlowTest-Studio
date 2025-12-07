@@ -1,0 +1,10 @@
+{
+    "scenarios": {
+        "Test": [
+            "Create user",
+            "Get user by ID",
+            "Update user",
+            "Delete user"
+        ]
+    }
+}

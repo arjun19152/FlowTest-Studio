@@ -1,0 +1,50 @@
+{
+    "Test": {
+        "Create user": {
+            "1": {
+                "status_code": 201,
+                "body": [
+                    {
+                        "id": "ab9bb963-5809-4d6e-bdd7-b489ec19b3ca",
+                        "name": "arjun.singh@gmail.com",
+                        "email": "Arjun Singh"
+                    }
+                ],
+                "error": null
+            }
+        },
+        "Get user by ID": {
+            "1": {
+                "status_code": 200,
+                "body": [
+                    {
+                        "id": "ab9bb963-5809-4d6e-bdd7-b489ec19b3ca",
+                        "name": "arjun.singh@gmail.com",
+                        "email": "Arjun Singh"
+                    }
+                ],
+                "error": null
+            }
+        },
+        "Update user": {
+            "1": {
+                "status_code": 200,
+                "body": [
+                    {
+                        "id": "ab9bb963-5809-4d6e-bdd7-b489ec19b3ca",
+                        "name": "arjun kumar",
+                        "email": "arjun.singh@gmail.com"
+                    }
+                ],
+                "error": null
+            }
+        },
+        "Delete user": {
+            "1": {
+                "status_code": 401,
+                "body": null,
+                "error": "No response from server"
+            }
+        }
+    }
+}

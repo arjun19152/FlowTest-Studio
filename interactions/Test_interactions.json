@@ -1,0 +1,45 @@
+{
+    "Create user": {
+        "response": {},
+        "level": []
+    },
+    "Get user by ID": {
+        "response": {},
+        "level": [
+            [
+                "Create user"
+            ]
+        ],
+        "Create user": {
+            "P": [
+                "eq.id"
+            ]
+        }
+    },
+    "Update user": {
+        "response": {},
+        "level": [
+            [
+                "Create user"
+            ]
+        ],
+        "Create user": {
+            "P": [
+                "eq.id"
+            ]
+        }
+    },
+    "Delete user": {
+        "response": {},
+        "level": [
+            [
+                "Create user"
+            ]
+        ],
+        "Create user": {
+            "P": [
+                "eq.id"
+            ]
+        }
+    }
+}
