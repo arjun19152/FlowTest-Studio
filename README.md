@@ -102,7 +102,7 @@ At the end of every run, FlowTest Studio generates an exhaustive summary.
 ---
 
 ## 👤 Author
-**Arjun**
+**Arjun Raj**
 *Technical Product Manager*
 
 ---
